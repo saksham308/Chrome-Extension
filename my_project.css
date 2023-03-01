@@ -1,0 +1,36 @@
+body{
+    padding: 10px;
+    width: 500px;
+    min-width:400px;
+    height: 300px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxf29kHeRNnxN7cX2QmLrHwJqTnJQwuzLnFA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#answer{
+    height: 30px;
+    width: 100vw;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+    font-weight: bold;
+    color:darkgreen;
+    font-size: x-large;
+}
+button{
+    display: block !important;
+    margin-bottom: 12px !important;
+    color: rgb(10, 10, 10) !important;
+    font-weight: bold !important;
+    box-sizing: border-box;
+    
+}
+button:hover{
+    background-color: #FF0000;
+}
+
+.question{
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: green;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
